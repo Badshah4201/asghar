@@ -114,13 +114,13 @@ def phone():
 ##### LOGO #####
 logo = """
 \033[1;95m     |-------+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-----|
-\033[1;95m     |               Pak Anonymous               |
+\033[1;95m     |               Asghar Malik               |
 \033[1;95m     |This Tool is Only for Pakistani FB Accounts|
 \033[1;95m     |------+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+------|
 
-\033[1;97m           [⚡\033[1;97mAuthor Name: Babar Ali     ⚡\033[1;97m]
-\033[1;97m           [⚡\033[1;97mPhone Numbr: +923000223253 ⚡\033[1;97m]
-\033[1;97m           [⚡\033[1;97mYutube Chnl: Pak Anonymous ⚡\033[1;97m]
+\033[1;97m           [⚡\033[1;97mAuthor Name: Aaghar Latif     ⚡\033[1;97m]
+\033[1;97m           [⚡\033[1;97mPhone Numbr: +92309******* ⚡\033[1;97m]
+\033[1;97m           [⚡\033[1;97mYutube Chnl: Tech Asghar ⚡\033[1;97m]
 \033[1;97m           [⚡       \033[1;97mFrom: Pakistan      ⚡\033[1;97m]
 """
 
@@ -141,26 +141,30 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print  """
-\033[1;95m██╗░░██╗░█████╗░██╗░░░░░██╗
-\033[1;95m██║░██╔╝██╔══██╗██║░░░░░██║
-\033[1;95m█████═╝░███████║██║░░░░░██║
-\033[1;95m██╔═██╗░██╔══██║██║░░░░░██║
-\033[1;95m██║░╚██╗██║░░██║███████╗██║
-╚═╝░░╚═╝╚═╝░░╚═╝╚══════╝╚═╝
-      \033[1;95m██╗░░░░░██╗███╗░░██╗██╗░░░██╗██╗░░██╗
-      \033[1;95m██║░░░░░██║████╗░██║██║░░░██║╚██╗██╔╝
-      \033[1;95m██║░░░░░██║██╔██╗██║██║░░░██║░╚███╔╝░
-      \033[1;95m██║░░░░░██║██║╚████║██║░░░██║░██╔██╗░
-      \033[1;95m███████╗██║██║░╚███║╚██████╔╝██╔╝╚██╗
-      \033[1;95m╚══════╝╚═╝╚═╝░░╚══╝░╚═════╝░╚═╝░░╚═╝
+\033[1;95m
+\033[1;95m_    ____   ____ _   _    _    ____
+         / \  / ___| / ___| | | |  / \  |  _ \
+        / _ \ \___ \| |  _| |_| | / _ \ | |_) |
+       / ___ \ ___) | |_| |  _  |/ ___ \|  _ <
+      /_/   \_\____/ \____|_| |_/_/   \_\_| \_\
+\033[1;95m
+\033[1;95m
+\033[1;95m
+
+      \033[1;95m 
+      \033[1;95m
+      \033[1;95m
+      \033[1;95m
+      \033[1;95m
+      \033[1;95m
 \033[1;91m•──────────────────────────•
 \033[1;91mNote: \033[1;97mWelcome Sir/Mam 
 \033[1;97mEnter Tool Username and Password 
 And Continue
 \033[1;91m•──────────────────────────•
  """
-CorrectUsername = "Pak"
-CorrectPassword = "Anonymous"
+CorrectUsername = "asghar"
+CorrectPassword = "malik"
 
 loop = 'true'
 while (loop == 'true'):
@@ -168,7 +172,7 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;91m \x1b[1;91mTool Password \x1b[1;91m: \x1b[1;92m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:Babar_Ali
+            print "Logged in successfully as " + username #Dev:Asghar Malik
 	    time.sleep(2)
             loop = 'false'
         else:
@@ -395,7 +399,7 @@ def pilih_super():
 		pilih_super()
 	elif peak =="1":
 		os.system('clear')
-		print "\033[1;95m«-----------------\033[1;91mKalilinux\033[1;95m-----------------»"
+		print "\033[1;95m«-----------------\033[1;91mAsghar\033[1;95m-----------------»"
 		print logo
 		jalan('\033[1;93mGetting Accounts \033[1;93m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
@@ -404,7 +408,7 @@ def pilih_super():
 			id.append(s['id'])
 	elif peak =="2":
 		os.system('clear')
-		print "\033[1;95m«-----------------\033[1;91mKalilinux\033[1;95m-----------------»"
+		print "\033[1;95m«-----------------\033[1;91mAsghar\033[1;95m-----------------»"
 		print logo
 		idt = raw_input("\033[1;96m[*] \033[1;92mEnter ID\033[1;93m: \033[1;97m")
 		try:
